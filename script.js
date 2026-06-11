@@ -3,7 +3,7 @@ const hoursInput = document.getElementById('inputHours');
 const minutesInput = document.getElementById('inputMinutes');
 const secondsInput = document.getElementById('inputSeconds');
 
-const worldCupDate = new Date(2026, 5, 11).getTime();
+const worldCupDate = new Date("2026-06-11T16:00:00").getTime();
 
 const coutdown = setInterval(() => {
   const today = new Date().getTime();
